@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.App{
+    margin: 0 auto;
+    width: 600px;
+    background: #495579;
+    padding-bottom: 20px;
+}
+.App > h2{
+    text-align: center;
+    color: #FFFBEB;
+    padding: 10px;
+}
+.AddTodo{
+    width: 400px;
+    margin: 0 auto;
+}
+.App input[type='text']{
+    background: #FFFBEB;
+    border: none;
+    outline: none;
+    height: 24px;
+    width: 80%;
+    padding: 4px;
+    font-size: 18px;
+}
+.btn{
+    border: 0;
+    outline: 0;
+    padding: 6px;
+    font-size: 18px;
+    margin: 2px 4px;
+}
+.todos{
+    width: 400px;
+    margin: 10px auto;
+}
+.todos ul{
+    list-style: none;
+    margin-left: 2px;
+    color: #FFFBEB;
+}
+
+.todos ul li{
+    background: #263159;
+    color: #FFFBEB;
+    font-size: 24px;
+    margin: 4px;
+    border-radius: 6px;
+    padding: 10px;
+}
